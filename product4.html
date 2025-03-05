@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Running Shoes - THEBASICSSTORE</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>THEBASICSSTORE</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="product-container">
+        <section class="product-gallery">
+            <img src="red.jpg.jpeg" alt="Red Top" class="main-image">
+        </section>
+        <section class="product-details">
+            <h2>Red Top</h2>
+            <p class="price">$49.99</p>
+            <p class="description">A high-quality, elegant Top.</p>
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" value="1" min="1">
+            <button class="add-to-cart" onclick="addToCart('Red top', 49.99)">Add to Cart</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 THEBASICSSTORE. All Rights Reserved.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - THEBASICSSTORE</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>THEBASICSSTORE</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="cart-container">
+        <h2>Your Cart</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="cart-items">
+                <!-- Cart items will be added dynamically here -->
+            </tbody>
+        </table>
+        <div class="cart-total">
+            <h3>Total: $<span id="cart-total">0.00</span></h3>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 THEBASICSSTORE. All Rights Reserved.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
